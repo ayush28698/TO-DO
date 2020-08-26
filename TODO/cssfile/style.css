@@ -1,0 +1,238 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #E3E3E3;
+}
+.head{ 
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 70px;
+    background-color: teal;
+    
+}
+
+.head a{
+    display: flex;
+    justify-content: center;
+    width: 80% auto;
+    text-decoration: none;
+    float: left;
+    color: teal;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: center;
+  
+
+}
+
+
+.head .search-container{
+    display: flex;
+    justify-content:center;
+    width: 80% auto;
+   
+   
+    
+}
+
+
+
+.head button{
+    color: grey;
+    float: left;
+    background: transparent;
+    border: none;
+    margin-top: -30px;
+    padding-left: 15px ;
+    font-size: 17px;
+    cursor: pointer;
+}
+.head .search-container button:hover{
+     background: none;
+    color: black;
+
+}
+
+.head input[type=text]{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 8px;
+    border: none;
+    border-radius: 20px; 
+    font-size: 15px;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+#details{
+    color: teal;
+    width: 80%;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 100px;
+
+}
+#details #title ,#description{
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    border: teal solid 2px;
+}
+
+
+
+    
+
+#status{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    color: teal;
+    background: url("assets/drop.png")no-repeat 95%;
+    background-size: 20px;
+    background-color: white;
+    border: solid 2px teal;
+    cursor: pointer;
+   
+}
+
+
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 300px  300px 300px;
+    grid-template-rows: 400px 400px;
+    grid-gap: 50px;
+    flex-direction: column;
+    text-align: left;
+    padding-top: 40px;
+    
+
+    
+
+}
+.container div{
+ 
+    background-color: white;
+    
+    border-radius: 3px;
+    padding-top: 10px;
+    padding-left: 5px;
+  
+}
+.container div h5{
+    color: grey;
+}
+   .container div div{
+       background-color: white;
+      
+       padding-top: 0px;
+       text-underline-position: below;
+       
+       text-align: left;
+   }
+   .blank{
+       background: white;
+   }
+   .container .btn button{
+       background-color: teal;
+       border: none;
+       border-radius: 10px;
+       color: white;
+       padding-top: 6px;
+       padding-left: 8px;
+       padding-right: 8px;
+       padding-bottom: 6px;
+
+   }
+ .progress{
+    border-radius: 10px;
+    text-size-adjust: 5px;
+    text-underline-position: below;
+ }       
+
+
+    .btn button{
+        padding: 10px;
+        margin: 5px;
+        color: white;
+        border-radius: 10px;
+        background: teal;
+    }
+    .btn button:hover{
+        color: black;
+        background-color: darkcyan;
+        cursor: pointer;
+    }
+.banners {
+    display: flex;
+    justify-content:space-around;
+    padding-bottom: 15px;
+    width: 85%;
+    height:25px
+ 
+
+}
+
+.banners ul{
+    width: 200%;
+    height: 45px;
+    display: flex;
+  
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.banners ul li{
+    list-style: none;
+    font-size: 17px;
+    background-size: 50px;
+    background-color: teal;
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+.data{
+    margin-left: 35px;
+    color: white;
+    background: teal;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.data:hover{
+    background-color: lightseagreen;
+}
+
+
+

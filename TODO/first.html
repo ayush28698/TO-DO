@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TODO</title>
+    <link rel="stylesheet" href="cssfile/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   
+        <div class="head">
+            <a href="#">TO-DO</a>
+
+           
+        <div class="search-container">
+            <form action="/action_page.php" style="margin:auto;max-width:300px">
+                <input type="text" placeholder="Search.." name="search2">
+                <button type="submit"><i class="fa fa-search" ></i></button>
+              </form>
+          </div>
+    
+            
+   </div>
+     
+
+   <form id="details" >     
+    <label for="title">Title<br><br>
+      <input type="text" id="title" name="title" /><br><br>
+    </label>
+    <label for="description">Description<br><br>
+        <input type="text" id="description" name="description" />
+    </label>
+    
+   
+    <form class="add" action="/action_page.php" method="get">
+      <label for="status">Status<br><br>
+        <input list="statuss" name="status" id="status" value="TO-DO" />
+        <datalist id="lists">
+            <option value="first project"></option>
+            <option value="second project"></option>
+        </datalist>
+    
+      <input  type="submit" class="data" value="Add">
+      </label>
+      
+
+    </form> 
+  </form>
+
+
+     <div class="banners">
+         <ul>
+             <li>To do  2</li>
+            <li>In Progress 2</li>
+       <li>Done 2</li>
+       </ul>
+    </div>
+
+    
+    <div class="container">
+        <div>
+          <h2>Title</h2>
+               <h5>Description here is not lorem ipsem</h5>
+                <div class="btn">
+                    <button type="button">Status</button>
+                </div>
+            <div>
+            <h2>Title</h2>
+                <h5>Description here is not lorem ipsem</h5>
+                <div class="btn">
+                    <button type="button">Status</button>
+                </div>
+        </div>
+        </div>
+        
+        <div class='progress'>
+            <div>
+                <h2>Title</h2>
+                     <h5>Description here is not lorem ipsem</h5>
+                      <div class="btn">
+                          <button type="button">Status</button>
+                      </div>
+            
+                      
+      </div>
+</div>
+      <div class="blank">
+    
+    </div>
+
+<script src="script/todo.js"></script>
+</body>
+
+</html>
